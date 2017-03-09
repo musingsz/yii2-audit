@@ -1,6 +1,18 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+# ignore IDE specific files and dirs
+.idea
+.settings
+.project
+.buildpath
+yii2-audit.iml
+
+# ignore test data files and dirs
+coverage.clover
+build/
+vendor/
+
+# ignore temporary files
+*~
+
+# ignore test files
+TestController.php
+/c3.php

@@ -1,8 +1,8 @@
 <?php
 /* @var $panel JavascriptPanel */
 
-use bedezign\yii2\audit\models\AuditJavascript;
-use bedezign\yii2\audit\panels\JavascriptPanel;
+use musingsz\yii2\audit\models\AuditJavascript;
+use musingsz\yii2\audit\panels\JavascriptPanel;
 use dosamigos\chartjs\ChartJs;
 
 $days = [];

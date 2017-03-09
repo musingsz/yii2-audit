@@ -1,16 +1,16 @@
 <?php
 
-namespace bedezign\yii2\audit\controllers;
+namespace musingsz\yii2\audit\controllers;
 
-use bedezign\yii2\audit\components\web\Controller;
-use bedezign\yii2\audit\models\AuditJavascript;
-use bedezign\yii2\audit\models\AuditJavascriptSearch;
+use musingsz\yii2\audit\components\web\Controller;
+use musingsz\yii2\audit\models\AuditJavascript;
+use musingsz\yii2\audit\models\AuditJavascriptSearch;
 use Yii;
 use yii\web\NotFoundHttpException;
 
 /**
  * JavascriptController
- * @package bedezign\yii2\audit\controllers
+ * @package musingsz\yii2\audit\controllers
  */
 class JavascriptController extends Controller
 {

@@ -1,8 +1,8 @@
 <?php
 /* @var $panel MailPanel */
 
-use bedezign\yii2\audit\models\AuditMail;
-use bedezign\yii2\audit\panels\MailPanel;
+use musingsz\yii2\audit\models\AuditMail;
+use musingsz\yii2\audit\panels\MailPanel;
 use dosamigos\chartjs\ChartJs;
 
 $days = [];

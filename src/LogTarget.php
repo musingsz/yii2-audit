@@ -5,14 +5,14 @@
  * @license   http://www.yiiframework.com/license/
  */
 
-namespace bedezign\yii2\audit;
+namespace musingsz\yii2\audit;
 
 use Yii;
 use yii\log\Target;
 
 /**
  * LogTarget
- * @package bedezign\yii2\audit
+ * @package musingsz\yii2\audit
  */
 class LogTarget extends Target
 {

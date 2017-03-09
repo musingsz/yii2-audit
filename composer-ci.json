@@ -1,5 +1,5 @@
 {
-    "name": "bedezign/yii2-audit",
+    "name": "musingsz/yii2-audit",
     "description": "Continuous integration version for Yii2 Audit that includes all dependencies",
     "keywords": ["yii2", "audit", "trail", "logging"],
     "type": "yii2-extension",
@@ -7,8 +7,8 @@
     "authors": [
         {
             "name": "Steve Guns",
-            "homepage": "http://bedezign.com/",
-            "email": "Steve@bedezign.com"
+            "homepage": "http://musingsz.com/",
+            "email": "Steve@musingsz.com"
         },
         {
             "name": "Brett O'Donnell",
@@ -41,9 +41,9 @@
         "heroku/heroku-buildpack-php": "*"
     },
     "autoload": {
-        "psr-4": {"bedezign\\yii2\\audit\\": "src"}
+        "psr-4": {"musingsz\\yii2\\audit\\": "src"}
     },
     "extra": {
-        "bootstrap": "bedezign\\yii2\\audit\\Bootstrap"
+        "bootstrap": "musingsz\\yii2\\audit\\Bootstrap"
     }
 }

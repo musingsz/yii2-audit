@@ -9,7 +9,7 @@ use yii\helpers\Url;
 $formatter = \Yii::$app->formatter;
 
 if (isset($request['error']) && isset($request['error'][1])) {
-    $error = \bedezign\yii2\audit\models\AuditError::findOne($request['error'][1]);
+    $error = \musingsz\yii2\audit\models\AuditError::findOne($request['error'][1]);
     $request['error'] = Html::a('[' . $request['error'][0] . '] ' . $error->message, ['error/view', 'id' => $error->id]);
 }
 

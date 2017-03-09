@@ -1,13 +1,13 @@
 <?php
 
-namespace bedezign\yii2\audit\controllers;
+namespace musingsz\yii2\audit\controllers;
 
-use bedezign\yii2\audit\components\web\Controller;
+use musingsz\yii2\audit\components\web\Controller;
 use Yii;
 
 /**
  * DefaultController
- * @package bedezign\yii2\audit\controllers
+ * @package musingsz\yii2\audit\controllers
  */
 class DefaultController extends Controller
 {

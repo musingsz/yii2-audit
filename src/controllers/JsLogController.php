@@ -1,16 +1,16 @@
 <?php
 
-namespace bedezign\yii2\audit\controllers;
+namespace musingsz\yii2\audit\controllers;
 
-use bedezign\yii2\audit\Audit;
-use bedezign\yii2\audit\models;
+use musingsz\yii2\audit\Audit;
+use musingsz\yii2\audit\models;
 use Yii;
 use yii\helpers\Json;
 use yii\web\Response;
 
 /**
  * JsLogController
- * @package bedezign\yii2\audit\controllers
+ * @package musingsz\yii2\audit\controllers
  */
 class JsLogController extends \yii\web\Controller
 {

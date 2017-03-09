@@ -4,16 +4,16 @@
  * Since these cannot be tracked automatically, the panel provides 2 utility functions: `curlStart()` and `curlEnd()`
  */
 
-namespace bedezign\yii2\audit\panels;
+namespace musingsz\yii2\audit\panels;
 
 use Yii;
-use bedezign\yii2\audit\components\panels\DataStoragePanel;
+use musingsz\yii2\audit\components\panels\DataStoragePanel;
 use yii\grid\GridViewAsset;
 use yii\data\ArrayDataProvider;
 
 /**
  * Class CurlPanel
- * @package bedezign\yii2\audit\src\panels
+ * @package musingsz\yii2\audit\src\panels
  */
 class CurlPanel extends DataStoragePanel
 {

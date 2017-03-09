@@ -13,7 +13,7 @@ class m150622_000001_update_audit_entry extends \yii\db\Migration
 
         echo "    > filling 'request_method' from data ...";
         $time = microtime(true);
-        foreach (\bedezign\yii2\audit\models\AuditEntry::find()->where(['request_method' => null])->batch() as $auditEntries) {
+        foreach (\musingsz\yii2\audit\models\AuditEntry::find()->where(['request_method' => null])->batch() as $auditEntries) {
             foreach ($auditEntries as $auditEntry) {
                 $auditEntry->request_method = \yii\helpers\ArrayHelper::getValue($auditEntry->data, 'env.REQUEST_METHOD');
                 if (!$auditEntry->request_method) {

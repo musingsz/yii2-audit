@@ -1,13 +1,13 @@
 <?php
-namespace bedezign\yii2\audit\components;
+namespace musingsz\yii2\audit\components;
 
-use bedezign\yii2\audit\models\AuditTrail;
+use musingsz\yii2\audit\models\AuditTrail;
 use yii\base\Component;
 use yii\db\ActiveRecord;
 
 /**
  * Version
- * @package bedezign\yii2\audit
+ * @package musingsz\yii2\audit
  */
 class Version extends Component
 {

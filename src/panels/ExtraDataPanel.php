@@ -1,15 +1,15 @@
 <?php
 
-namespace bedezign\yii2\audit\panels;
+namespace musingsz\yii2\audit\panels;
 
 use Yii;
-use bedezign\yii2\audit\components\panels\DataStoragePanel;
+use musingsz\yii2\audit\components\panels\DataStoragePanel;
 use yii\data\ArrayDataProvider;
 use yii\grid\GridViewAsset;
 
 /**
  * ExtraDataPanel
- * @package bedezign\yii2\audit\panels
+ * @package musingsz\yii2\audit\panels
  */
 class ExtraDataPanel extends DataStoragePanel
 {

@@ -1,8 +1,8 @@
 <?php
 
-use bedezign\yii2\audit\Audit;
-use bedezign\yii2\audit\components\panels\Panel;
-use bedezign\yii2\audit\models\AuditEntry;
+use musingsz\yii2\audit\Audit;
+use musingsz\yii2\audit\components\panels\Panel;
+use musingsz\yii2\audit\models\AuditEntry;
 use dosamigos\chartjs\ChartJs;
 use yii\helpers\Html;
 

@@ -1,16 +1,16 @@
 <?php
 
-namespace bedezign\yii2\audit\controllers;
+namespace musingsz\yii2\audit\controllers;
 
-use bedezign\yii2\audit\components\web\Controller;
-use bedezign\yii2\audit\models\AuditTrail;
-use bedezign\yii2\audit\models\AuditTrailSearch;
+use musingsz\yii2\audit\components\web\Controller;
+use musingsz\yii2\audit\models\AuditTrail;
+use musingsz\yii2\audit\models\AuditTrailSearch;
 use Yii;
 use yii\web\NotFoundHttpException;
 
 /**
  * TrailController
- * @package bedezign\yii2\audit\controllers
+ * @package musingsz\yii2\audit\controllers
  */
 class TrailController extends Controller
 {

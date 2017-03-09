@@ -3,15 +3,15 @@
  * This model allows for storing of mail entries linked to a specific audit entry
  */
 
-namespace bedezign\yii2\audit\models;
+namespace musingsz\yii2\audit\models;
 
-use bedezign\yii2\audit\components\db\ActiveRecord;
+use musingsz\yii2\audit\components\db\ActiveRecord;
 use Yii;
 
 /**
  * AuditMail
  *
- * @package bedezign\yii2\audit\models
+ * @package musingsz\yii2\audit\models
  * @property int    $id
  * @property int    $entry_id
  * @property string $created

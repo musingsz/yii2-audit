@@ -1,7 +1,7 @@
 <?php
 
 /** @var yii\web\View $this */
-/** @var bedezign\yii2\audit\models\AuditError $model */
+/** @var musingsz\yii2\audit\models\AuditError $model */
 
 use yii\grid\GridView;
 use yii\helpers\Html;

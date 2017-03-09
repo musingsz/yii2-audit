@@ -1,6 +1,6 @@
 <?php
 
-namespace bedezign\yii2\audit\models;
+namespace musingsz\yii2\audit\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
@@ -8,7 +8,7 @@ use yii\helpers\ArrayHelper;
 
 /**
  * AuditErrorSearch
- * @package bedezign\yii2\audit\models
+ * @package musingsz\yii2\audit\models
  */
 class AuditErrorSearch extends AuditError
 {

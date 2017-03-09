@@ -1,7 +1,7 @@
 <?php
 
 /** @var yii\web\View $this */
-/** @var bedezign\yii2\audit\models\AuditJavascript $model */
+/** @var musingsz\yii2\audit\models\AuditJavascript $model */
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;

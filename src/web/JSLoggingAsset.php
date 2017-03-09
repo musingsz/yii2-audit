@@ -3,23 +3,23 @@
  * AssetBundle to register when you want to log javascript events as well.
  */
 
-namespace bedezign\yii2\audit\web;
+namespace musingsz\yii2\audit\web;
 
-use bedezign\yii2\audit\Audit;
+use musingsz\yii2\audit\Audit;
 use yii\helpers\Url;
 use yii\web\AssetBundle;
 use yii\web\View;
 
 /**
  * JSLoggingAsset
- * @package bedezign\yii2\audit\assets
+ * @package musingsz\yii2\audit\assets
  */
 class JSLoggingAsset extends AssetBundle
 {
     /**
      * @var string
      */
-    public $sourcePath = '@bedezign/yii2/audit/web/assets';
+    public $sourcePath = '@musingsz/yii2/audit/web/assets';
 
     /**
      * @var array

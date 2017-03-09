@@ -2,9 +2,9 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-use bedezign\yii2\audit\Audit;
-use bedezign\yii2\audit\components\panels\Panel;
-use bedezign\yii2\audit\web\JSLoggingAsset;
+use musingsz\yii2\audit\Audit;
+use musingsz\yii2\audit\components\panels\Panel;
+use musingsz\yii2\audit\web\JSLoggingAsset;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\debug\DebugAsset;
@@ -76,7 +76,7 @@ NavBar::end();
         <hr>
         <?= date('Y-m-d H:i:s'); ?>
         <br>
-        <?= $this->render('@bedezign/yii2/audit/views/_audit_entry_id', ['style' => '']); ?>
+        <?= $this->render('@musingsz/yii2/audit/views/_audit_entry_id', ['style' => '']); ?>
     </footer>
 </div>
 

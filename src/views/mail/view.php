@@ -3,8 +3,8 @@
 /** @var View $this */
 /** @var AuditMail $model */
 
-use bedezign\yii2\audit\components\Helper;
-use bedezign\yii2\audit\models\AuditMail;
+use musingsz\yii2\audit\components\Helper;
+use musingsz\yii2\audit\models\AuditMail;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\web\View;

@@ -1,11 +1,11 @@
 <?php
 
-namespace bedezign\yii2\audit\commands;
+namespace musingsz\yii2\audit\commands;
 
-use bedezign\yii2\audit\Audit;
-use bedezign\yii2\audit\components\panels\Panel;
-use bedezign\yii2\audit\models\AuditEntry;
-use bedezign\yii2\audit\models\AuditError;
+use musingsz\yii2\audit\Audit;
+use musingsz\yii2\audit\components\panels\Panel;
+use musingsz\yii2\audit\models\AuditEntry;
+use musingsz\yii2\audit\models\AuditError;
 use Yii;
 use yii\console\Controller;
 use yii\helpers\Console;
@@ -15,7 +15,7 @@ use yii\helpers\Url;
 /**
  * Task runner commands for Audit.
  *
- * @package bedezign\yii2\audit\commands
+ * @package musingsz\yii2\audit\commands
  */
 class AuditController extends Controller
 {

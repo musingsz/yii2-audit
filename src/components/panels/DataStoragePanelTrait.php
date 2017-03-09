@@ -1,10 +1,10 @@
 <?php
 
-namespace bedezign\yii2\audit\components\panels;
+namespace musingsz\yii2\audit\components\panels;
 
 /**
  * DataStoragePanelTrait
- * @package bedezign\yii2\audit\components\panels
+ * @package musingsz\yii2\audit\components\panels
  */
 trait DataStoragePanelTrait
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace bedezign\yii2\audit\panels;
+namespace musingsz\yii2\audit\panels;
 
-use bedezign\yii2\audit\components\panels\DataStoragePanelTrait;
+use musingsz\yii2\audit\components\panels\DataStoragePanelTrait;
 use Yii;
 use yii\debug\models\search\Db;
 use yii\grid\GridViewAsset;
 
 /**
  * DbPanel
- * @package bedezign\yii2\audit\panels
+ * @package musingsz\yii2\audit\panels
  *
  * @method bool hasExplain()
  */

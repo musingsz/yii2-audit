@@ -1,9 +1,9 @@
 <?php
-/* @var $panel bedezign\yii2\audit\panels\SoapPanel */
+/* @var $panel musingsz\yii2\audit\panels\SoapPanel */
 
 use yii\bootstrap\Tabs;
 use yii\helpers\Html;
-use bedezign\yii2\audit\components\Helper;
+use musingsz\yii2\audit\components\Helper;
 use yii\helpers\ArrayHelper;
 use yii\helpers\VarDumper;
 

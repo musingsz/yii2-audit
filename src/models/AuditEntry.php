@@ -1,16 +1,16 @@
 <?php
 
-namespace bedezign\yii2\audit\models;
+namespace musingsz\yii2\audit\models;
 
-use bedezign\yii2\audit\components\db\ActiveRecord;
-use bedezign\yii2\audit\components\Helper;
+use musingsz\yii2\audit\components\db\ActiveRecord;
+use musingsz\yii2\audit\components\Helper;
 use Yii;
 use yii\db\ActiveQuery;
 use yii\db\Expression;
 
 /**
  * AuditEntry
- * @package bedezign\yii2\audit\models
+ * @package musingsz\yii2\audit\models
  *
  * @property int               $id
  * @property string            $created

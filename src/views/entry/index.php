@@ -1,10 +1,10 @@
 <?php
 
-use bedezign\yii2\audit\Audit;
+use musingsz\yii2\audit\Audit;
 use yii\helpers\Html;
 use yii\grid\GridView;
 
-use bedezign\yii2\audit\models\AuditEntrySearch;
+use musingsz\yii2\audit\models\AuditEntrySearch;
 
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */

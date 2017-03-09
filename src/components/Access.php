@@ -1,8 +1,8 @@
 <?php
 
-namespace bedezign\yii2\audit\components;
+namespace musingsz\yii2\audit\components;
 
-use bedezign\yii2\audit\Audit;
+use musingsz\yii2\audit\Audit;
 use Yii;
 use yii\base\Component;
 use yii\di\Instance;

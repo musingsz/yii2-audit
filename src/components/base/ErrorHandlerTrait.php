@@ -3,17 +3,17 @@
  * Error Handler allows errors to be logged to the audit_error table.
  */
 
-namespace bedezign\yii2\audit\components\base;
+namespace musingsz\yii2\audit\components\base;
 
-use bedezign\yii2\audit\Audit;
-use bedezign\yii2\audit\models\AuditError;
-use bedezign\yii2\audit\panels\ErrorPanel;
+use musingsz\yii2\audit\Audit;
+use musingsz\yii2\audit\models\AuditError;
+use musingsz\yii2\audit\panels\ErrorPanel;
 use Exception;
 use Yii;
 
 /**
  * ErrorHandlerTrait
- * @package bedezign\yii2\audit\components\base
+ * @package musingsz\yii2\audit\components\base
  */
 trait ErrorHandlerTrait
 {

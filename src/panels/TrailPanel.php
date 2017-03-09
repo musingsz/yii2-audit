@@ -1,16 +1,16 @@
 <?php
 
-namespace bedezign\yii2\audit\panels;
+namespace musingsz\yii2\audit\panels;
 
-use bedezign\yii2\audit\components\panels\Panel;
-use bedezign\yii2\audit\models\AuditTrail;
-use bedezign\yii2\audit\models\AuditTrailSearch;
+use musingsz\yii2\audit\components\panels\Panel;
+use musingsz\yii2\audit\models\AuditTrail;
+use musingsz\yii2\audit\models\AuditTrailSearch;
 use Yii;
 use yii\grid\GridViewAsset;
 
 /**
  * TrailPanel
- * @package bedezign\yii2\audit\panels
+ * @package musingsz\yii2\audit\panels
  */
 class TrailPanel extends Panel
 {

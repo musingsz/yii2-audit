@@ -1,16 +1,16 @@
 <?php
 
-namespace bedezign\yii2\audit\controllers;
+namespace musingsz\yii2\audit\controllers;
 
-use bedezign\yii2\audit\components\web\Controller;
-use bedezign\yii2\audit\models\AuditError;
-use bedezign\yii2\audit\models\AuditErrorSearch;
+use musingsz\yii2\audit\components\web\Controller;
+use musingsz\yii2\audit\models\AuditError;
+use musingsz\yii2\audit\models\AuditErrorSearch;
 use Yii;
 use yii\web\NotFoundHttpException;
 
 /**
  * ErrorController
- * @package bedezign\yii2\audit\controllers
+ * @package musingsz\yii2\audit\controllers
  */
 class ErrorController extends Controller
 {

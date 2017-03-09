@@ -1,7 +1,7 @@
 <?php
 
-namespace bedezign\yii2\audit\models;
-use bedezign\yii2\audit\components\db\ActiveRecord;
+namespace musingsz\yii2\audit\models;
+use musingsz\yii2\audit\components\db\ActiveRecord;
 use Yii;
 
 /**
@@ -17,7 +17,7 @@ use Yii;
  *
  * @property AuditEntry    $entry
  *
- * @package bedezign\yii2\audit\models
+ * @package musingsz\yii2\audit\models
  */
 class AuditData extends ActiveRecord
 {

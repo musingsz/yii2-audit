@@ -1,6 +1,6 @@
 <?php
 
-use bedezign\yii2\audit\models\AuditError;
+use musingsz\yii2\audit\models\AuditError;
 
 class m150622_000003_update_audit_error extends \yii\db\Migration
 {

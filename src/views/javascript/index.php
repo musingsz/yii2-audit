@@ -1,6 +1,6 @@
 <?php
 
-use bedezign\yii2\audit\models\AuditJavascriptSearch;
+use musingsz\yii2\audit\models\AuditJavascriptSearch;
 use yii\data\ActiveDataProvider;
 use yii\helpers\Html;
 use yii\grid\GridView;

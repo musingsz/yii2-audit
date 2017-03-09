@@ -1,6 +1,6 @@
 <?php
 
-use bedezign\yii2\audit\models\AuditError;
+use musingsz\yii2\audit\models\AuditError;
 
 class m150623_000001_audit_id_to_entry_id extends \yii\db\Migration
 {

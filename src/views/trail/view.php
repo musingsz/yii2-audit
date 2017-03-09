@@ -1,9 +1,9 @@
 <?php
 
 /** @var yii\web\View $this */
-/** @var musingsz\yii2\audit\models\AuditTrail $model */
+/** @var bedezign\yii2\audit\models\AuditTrail $model */
 
-use musingsz\yii2\audit\Audit;
+use bedezign\yii2\audit\Audit;
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 

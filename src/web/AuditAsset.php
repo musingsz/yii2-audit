@@ -1,19 +1,19 @@
 <?php
 
-namespace musingsz\yii2\audit\web;
+namespace bedezign\yii2\audit\web;
 
 use yii\web\AssetBundle;
 
 /**
  * AuditAsset
- * @package musingsz\yii2\audit\assets
+ * @package bedezign\yii2\audit\assets
  */
 class AuditAsset extends AssetBundle
 {
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@musingsz/yii2/audit/web/assets';
+    public $sourcePath = '@bedezign/yii2/audit/web/assets';
 
     /**
      * @inheritdoc

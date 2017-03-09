@@ -3,7 +3,7 @@
 /* @var $searchModel AuditJavascriptSearch */
 /* @var $dataProvider ArrayDataProvider */
 
-use musingsz\yii2\audit\models\AuditJavascriptSearch;
+use bedezign\yii2\audit\models\AuditJavascriptSearch;
 use yii\data\ArrayDataProvider;
 use yii\debug\panels\LogPanel;
 use yii\grid\GridView;

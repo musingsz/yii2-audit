@@ -1,7 +1,7 @@
 <?php
-namespace musingsz\yii2\audit\components;
+namespace bedezign\yii2\audit\components;
 
-use musingsz\yii2\audit\Audit;
+use bedezign\yii2\audit\Audit;
 
 class SoapClient extends \SoapClient
 {

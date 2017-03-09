@@ -1,8 +1,8 @@
 <?php
 /* @var $panel MailPanel */
 
-use musingsz\yii2\audit\models\AuditMail;
-use musingsz\yii2\audit\panels\MailPanel;
+use bedezign\yii2\audit\models\AuditMail;
+use bedezign\yii2\audit\panels\MailPanel;
 use dosamigos\chartjs\ChartJs;
 
 $days = [];
@@ -15,10 +15,6 @@ foreach (range(-6, 0) as $day) {
 
 echo ChartJs::widget([
     'type' => 'bar',
-    'clientOptions' => [
-        'legend' => ['display' => false],
-        'tooltips' => ['enabled' => false],
-    ],
     'data' => [
         'labels' => $days,
         'datasets' => [

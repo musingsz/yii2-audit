@@ -1,6 +1,6 @@
 <?php
 
-use musingsz\yii2\audit\models\AuditError;
+use bedezign\yii2\audit\models\AuditError;
 
 class m150623_000002_drop_superfluous_fields extends \yii\db\Migration
 {

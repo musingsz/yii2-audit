@@ -1,8 +1,8 @@
 <?php
 
-namespace musingsz\yii2\audit\models;
+namespace bedezign\yii2\audit\models;
 
-use musingsz\yii2\audit\components\db\ActiveRecord;
+use bedezign\yii2\audit\components\db\ActiveRecord;
 use Yii;
 
 /**

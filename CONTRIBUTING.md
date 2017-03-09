@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/musingsz/yii2-audit).
+We accept contributions via Pull Requests on [Github](https://github.com/bedezign/yii2-audit).
 
 
 ## Pull Requests

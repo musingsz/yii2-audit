@@ -1,13 +1,12 @@
 <?php
 
-namespace musingsz\yii2\audit\commands;
+namespace bedezign\yii2\audit\commands;
 
-use musingsz\yii2\audit\Audit;
-use musingsz\yii2\audit\components\panels\Panel;
-use musingsz\yii2\audit\models\AuditEntry;
-use musingsz\yii2\audit\models\AuditError;
+use bedezign\yii2\audit\Audit;
+use bedezign\yii2\audit\components\panels\Panel;
+use bedezign\yii2\audit\models\AuditEntry;
+use bedezign\yii2\audit\models\AuditError;
 use Yii;
-use yii\base\Exception;
 use yii\console\Controller;
 use yii\helpers\Console;
 use yii\helpers\Html;
@@ -16,7 +15,7 @@ use yii\helpers\Url;
 /**
  * Task runner commands for Audit.
  *
- * @package musingsz\yii2\audit\commands
+ * @package bedezign\yii2\audit\commands
  */
 class AuditController extends Controller
 {
@@ -25,11 +24,6 @@ class AuditController extends Controller
      * @var bool True to cleanup the AuditEntry.
      */
     public $entry;
-
-    /**
-     * @var bool True to cleanup solo AuditEntry records (no trail/mail/error/javascript).
-     */
-    public $entrySolo;
 
     /**
      * @var string|null Comma separated list of panels to cleanup.
@@ -48,7 +42,7 @@ class AuditController extends Controller
     {
         return array_merge(
             parent::options($actionID),
-            ($actionID == 'cleanup') ? ['entry', 'entrySolo', 'panels', 'age'] : []
+            ($actionID == 'cleanup') ? ['entry', 'panels', 'age'] : []
         );
     }
 
@@ -61,14 +55,10 @@ class AuditController extends Controller
     {
         /** @var Audit $audit */
         $audit = Yii::$app->getModule(Audit::findModuleIdentifier());
-        if ($this->panels === '') {
-            $panels = [];
-        } else {
-            $panels = !empty($this->panels) ? explode(',', $this->panels) : array_keys($audit->panels);
-        }
+        $panels = $this->panels !== null ? explode(',', $this->panels) : array_keys($audit->panels);
 
         // summary
-        $this->preCleanupSummary($this->entry, $this->entrySolo, $panels, $this->age);
+        $this->preCleanupSummary($this->entry, $panels, $this->age);
 
         // confirm
         if ($this->confirm('Cleanup the above data?')) {
@@ -86,13 +76,6 @@ class AuditController extends Controller
                     return self::EXIT_CODE_ERROR;
                 }
             }
-            // cleanup solo audit_entry
-            if ($this->entrySolo) {
-                if (!$this->cleanupEntrySolo()) {
-                    $this->stdout("\nCleanup failed.\n", Console::FG_RED);
-                    return self::EXIT_CODE_ERROR;
-                }
-            }
             // success!
             $this->stdout("\nCleanup was successful.\n", Console::FG_GREEN);
         }
@@ -103,11 +86,10 @@ class AuditController extends Controller
      * Displays a summary of the data and dates to clean
      *
      * @param bool $entry
-     * @param bool $entrySolo
      * @param array $panels
      * @param int|null $maxAge
      */
-    protected function preCleanupSummary($entry, $entrySolo, $panels, $maxAge)
+    protected function preCleanupSummary($entry, $panels, $maxAge)
     {
         $audit = Audit::getInstance();
 
@@ -138,11 +120,6 @@ class AuditController extends Controller
             $this->stdout("\t" . 'AuditEntry .............. ' . $date . "\n");
         }
 
-        // audit entry solo
-        if ($entrySolo) {
-            $this->stdout("\t" . 'AuditEntry solo ......... ' . date('Y-m-d 23:59:59') . "\n");
-        }
-
         $this->stdout("\n");
     }
 
@@ -171,41 +148,6 @@ class AuditController extends Controller
         $time = microtime(true) - $start;
         $this->stdout("\n*** failed to clean AuditEntry (time: " . sprintf("%.3f", $time) . "s)\n", Console::FG_RED);
         return false;
-    }
-
-    /**
-     * Cleans the AuditEntry solo data (no trail/mail/error/javascript)
-     *
-     * @return bool
-     */
-    protected function cleanupEntrySolo()
-    {
-        $this->stdout("\n*** cleaning AuditEntry solo", Console::FG_YELLOW);
-        $start = microtime(true);
-        $count = 0;
-        foreach (AuditEntry::find()->each(100) as $auditEntry) {
-            /** @var AuditEntry $auditEntry */
-            /** @var Audit $audit */
-            $audit = Yii::$app->getModule('audit');
-            $auditEntryCurrent = $audit->getEntry();
-            if ($auditEntryCurrent && $auditEntryCurrent->id == $auditEntry->id) {
-                continue;
-            }
-            if (!$auditEntry->hasRelatedData()) {
-                foreach ($auditEntry->data as $data) {
-                    $data->delete();
-                }
-                try {
-                    $auditEntry->delete();
-                    $count++;
-                    $this->stdout('.', Console::FG_CYAN);
-                } catch (Exception $e) {
-                }
-            }
-        }
-        $time = microtime(true) - $start;
-        $this->stdout("\n*** cleaned AuditEntry (records: " . $count . ",time: " . sprintf("%.3f", $time) . "s)\n", Console::FG_GREEN);
-        return true;
     }
 
     /**

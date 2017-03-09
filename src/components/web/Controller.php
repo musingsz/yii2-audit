@@ -1,16 +1,16 @@
 <?php
 
-namespace musingsz\yii2\audit\components\web;
+namespace bedezign\yii2\audit\components\web;
 
-use musingsz\yii2\audit\components\Access;
-use musingsz\yii2\audit\web\AuditAsset;
-use musingsz\yii2\audit\Audit;
+use bedezign\yii2\audit\components\Access;
+use bedezign\yii2\audit\web\AuditAsset;
+use bedezign\yii2\audit\Audit;
 use Yii;
 use yii\web\View;
 
 /**
  * Base Controller
- * @package musingsz\yii2\audit\components\web
+ * @package bedezign\yii2\audit\components\web
  *
  * @property Audit $module
  * @property View  $view

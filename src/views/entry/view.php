@@ -5,9 +5,9 @@
 /** @var Panel $activePanel */
 /** @var AuditEntry $model */
 
-use musingsz\yii2\audit\Audit;
-use musingsz\yii2\audit\components\panels\Panel;
-use musingsz\yii2\audit\models\AuditEntry;
+use bedezign\yii2\audit\Audit;
+use bedezign\yii2\audit\components\panels\Panel;
+use bedezign\yii2\audit\models\AuditEntry;
 use yii\helpers\Html;
 use yii\web\View;
 use yii\widgets\DetailView;

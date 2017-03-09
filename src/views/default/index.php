@@ -1,8 +1,8 @@
 <?php
 
-use musingsz\yii2\audit\Audit;
-use musingsz\yii2\audit\components\panels\Panel;
-use musingsz\yii2\audit\models\AuditEntry;
+use bedezign\yii2\audit\Audit;
+use bedezign\yii2\audit\components\panels\Panel;
+use bedezign\yii2\audit\models\AuditEntry;
 use dosamigos\chartjs\ChartJs;
 use yii\helpers\Html;
 
@@ -33,13 +33,6 @@ $this->registerCss('canvas {width: 100% !important;height: 400px;}');
                 }
                 echo ChartJs::widget([
                     'type' => 'bar',
-                    'options' => [
-                        'height' => '45',
-                    ],
-                    'clientOptions' => [
-                        'legend' => ['display' => false],
-                        'tooltips' => ['enabled' => false],
-                    ],
                     'data' => [
                         'labels' => $days,
                         'datasets' => [

@@ -3,7 +3,7 @@
 /** @var View $this */
 /** @var AuditMail $model */
 
-use musingsz\yii2\audit\models\AuditMail;
+use bedezign\yii2\audit\models\AuditMail;
 use yii\web\View;
 
 $this->title = Yii::t('audit', 'Mail #{id}', ['id' => $model->id]);

@@ -1,15 +1,15 @@
 <?php
 
-namespace musingsz\yii2\audit\panels;
+namespace bedezign\yii2\audit\panels;
 
-use musingsz\yii2\audit\components\panels\DataStoragePanelTrait;
+use bedezign\yii2\audit\components\panels\DataStoragePanelTrait;
 use Yii;
 use yii\debug\models\search\Db;
 use yii\grid\GridViewAsset;
 
 /**
  * DbPanel
- * @package musingsz\yii2\audit\panels
+ * @package bedezign\yii2\audit\panels
  *
  * @method bool hasExplain()
  */
@@ -39,13 +39,7 @@ class DbPanel extends \yii\debug\panels\DbPanel
     public function getDetail()
     {
         $searchModel = new Db();
-
-        if (!$searchModel->load(Yii::$app->request->getQueryParams())) {
-            $searchModel->load($this->defaultFilter, '');
-        }
-
-        $dataProvider = $searchModel->search($this->getModels());
-        $dataProvider->getSort()->defaultOrder = $this->defaultOrder;
+        $dataProvider = $searchModel->search(Yii::$app->request->getQueryParams(), $this->getModels());
 
         return Yii::$app->view->render('@yii/debug/views/default/panels/db/detail', [
             'panel' => $this,

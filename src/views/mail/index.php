@@ -1,6 +1,6 @@
 <?php
 
-use musingsz\yii2\audit\models\AuditMailSearch;
+use bedezign\yii2\audit\models\AuditMailSearch;
 use yii\data\ActiveDataProvider;
 use yii\helpers\Html;
 use yii\grid\GridView;

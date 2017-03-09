@@ -1,15 +1,15 @@
 <?php
 
-namespace musingsz\yii2\audit\panels;
+namespace bedezign\yii2\audit\panels;
 
-use musingsz\yii2\audit\components\panels\DataStoragePanelTrait;
+use bedezign\yii2\audit\components\panels\DataStoragePanelTrait;
 use Yii;
 use yii\debug\models\search\Profile;
 use yii\grid\GridViewAsset;
 
 /**
  * ProfilingPanel
- * @package musingsz\yii2\audit\panels
+ * @package bedezign\yii2\audit\panels
  */
 class ProfilingPanel extends \yii\debug\panels\ProfilingPanel
 {

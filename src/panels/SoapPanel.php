@@ -1,14 +1,14 @@
 <?php
-namespace musingsz\yii2\audit\panels;
+namespace bedezign\yii2\audit\panels;
 
 use Yii;
-use musingsz\yii2\audit\models\AuditError;
-use musingsz\yii2\audit\components\panels\DataStoragePanel;
+use bedezign\yii2\audit\models\AuditError;
+use bedezign\yii2\audit\components\panels\DataStoragePanel;
 use yii\data\ArrayDataProvider;
 
 /**
  * Class CurlPanel
- * @package musingsz\yii2\audit\src\panels
+ * @package bedezign\yii2\audit\src\panels
  */
 class SoapPanel extends DataStoragePanel
 {

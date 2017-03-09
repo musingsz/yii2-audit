@@ -3,15 +3,15 @@
  * Provides a number of helper functions for the audit component
  */
 
-namespace musingsz\yii2\audit\components;
+namespace bedezign\yii2\audit\components;
 
-use musingsz\yii2\audit\Audit;
+use bedezign\yii2\audit\Audit;
 use yii\helpers\ArrayHelper;
 use yii\helpers\VarDumper;
 
 /**
  * Helper
- * @package musingsz\yii2\audit\components
+ * @package bedezign\yii2\audit\components
  */
 class Helper extends \yii\base\Object
 {

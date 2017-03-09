@@ -3,15 +3,16 @@
  * This serves as both the Module for the MVC part of the audit and the configuration/entry point for the actual
  * audit process.
  *
- * @author    Steve Guns <steve@musingsz.com>
- * @package   com.musingsz.yii2.audit
+ * @author    Steve Guns <steve@bedezign.com>
+ * @package   com.bedezign.yii2.audit
  * @copyright 2014-2015 B&E DeZign
  */
 
-namespace musingsz\yii2\audit;
+namespace bedezign\yii2\audit;
 
-use musingsz\yii2\audit\components\panels\Panel;
-use musingsz\yii2\audit\models\AuditEntry;
+use bedezign\yii2\audit\components\panels\Panel;
+use bedezign\yii2\audit\models\AuditEntry;
+use bedezign\yii2\audit\models\AuditError;
 use Yii;
 use yii\base\ActionEvent;
 use yii\base\Application;
@@ -27,23 +28,23 @@ use yii\helpers\ArrayHelper;
  * To configure it you need to do 2 things:
  * - add a module configuration entry:
  *     'modules' => [
- *        'audit' => 'musingsz\yii2\audit\Audit',
+ *        'audit' => 'bedezign\yii2\audit\Audit',
  *     ]
  *   or optionally with configuration:
  *     'modules' => [
  *        'audit' => [
- *            'class' => 'musingsz\yii2\audit\Audit',
+ *            'class' => 'bedezign\yii2\audit\Audit',
  *            'ignoreActions' => ['debug/*']
  *     ]
  * - If you want to auto track actions, be sure to add the module to the application bootstrapping:
  *    'bootstrap' => ['audit'],
  *
- * @package musingsz\yii2\audit
+ * @package bedezign\yii2\audit
  * @property AuditEntry $entry
  *
  * @method void data($type, $data)                                                                      @see ExtraDataPanel::trackData()
- * @method \musingsz\yii2\audit\models\AuditError exception(\Exception $exception)                      @see ErrorPanel::log()
- * @method \musingsz\yii2\audit\models\AuditError errorMessage($message, $code, $file, $line, $trace)   @see ErrorPanel::logMessage()
+ * @method \bedezign\yii2\audit\models\AuditError exception(\Exception $exception)                      @see ErrorPanel::log()
+ * @method \bedezign\yii2\audit\models\AuditError errorMessage($message, $code, $file, $line, $trace)   @see ErrorPanel::logMessage()
  */
 class Audit extends Module
 {
@@ -102,11 +103,6 @@ class Audit extends Module
     public $userIdentifierCallback = false;
 
     /**
-     * @var string The callback to get a user id.
-     */
-    public $userIdCallback = false;
-
-    /**
      * @var string Will be called to translate text in the user filter into a (or more) user id's
      */
     public $userFilterCallback = false;
@@ -116,12 +112,6 @@ class Audit extends Module
      * `max_allowed_packet` errors when logging huge data quantities. Records will be saved per piece instead of all at once
      */
     public $batchSave = true;
-
-    /**
-     * @var array Default log levels to filter and process
-     */
-    public $logConfig = ['levels' => ['error', 'warning', 'info', 'profile']];
-
 
     /**
      * @var array|Panel[] list of panels that should be active/tracking/available during the auditing phase.
@@ -164,30 +154,25 @@ class Audit extends Module
     public $logTarget;
 
     /**
-     * @see \yii\debug\Module::$traceLine
-     */
-    public $traceLine = \yii\debug\Module::DEFAULT_IDE_TRACELINE;
-
-    /**
      * @var array
      */
     private $_corePanels = [
         // Tracking/logging panels
-        'audit/request'    => ['class' => 'musingsz\yii2\audit\panels\RequestPanel'],
-        'audit/db'         => ['class' => 'musingsz\yii2\audit\panels\DbPanel'],
-        'audit/log'        => ['class' => 'musingsz\yii2\audit\panels\LogPanel'],
-        'audit/asset'      => ['class' => 'musingsz\yii2\audit\panels\AssetPanel'],
-        'audit/config'     => ['class' => 'musingsz\yii2\audit\panels\ConfigPanel'],
-        'audit/profiling'  => ['class' => 'musingsz\yii2\audit\panels\ProfilingPanel'],
+        'audit/request'    => ['class' => 'bedezign\yii2\audit\panels\RequestPanel'],
+        'audit/db'         => ['class' => 'bedezign\yii2\audit\panels\DbPanel'],
+        'audit/log'        => ['class' => 'bedezign\yii2\audit\panels\LogPanel'],
+        'audit/asset'      => ['class' => 'bedezign\yii2\audit\panels\AssetPanel'],
+        'audit/config'     => ['class' => 'bedezign\yii2\audit\panels\ConfigPanel'],
+        'audit/profiling'  => ['class' => 'bedezign\yii2\audit\panels\ProfilingPanel'],
 
         // Special other panels
-        'audit/error'      => ['class' => 'musingsz\yii2\audit\panels\ErrorPanel'],
-        'audit/javascript' => ['class' => 'musingsz\yii2\audit\panels\JavascriptPanel'],
-        'audit/trail'      => ['class' => 'musingsz\yii2\audit\panels\TrailPanel'],
-        'audit/mail'       => ['class' => 'musingsz\yii2\audit\panels\MailPanel'],
-        'audit/extra'      => ['class' => 'musingsz\yii2\audit\panels\ExtraDataPanel'],
-        'audit/curl'       => ['class' => 'musingsz\yii2\audit\panels\CurlPanel'],
-        'audit/soap'       => ['class' => 'musingsz\yii2\audit\panels\SoapPanel'],
+        'audit/error'      => ['class' => 'bedezign\yii2\audit\panels\ErrorPanel'],
+        'audit/javascript' => ['class' => 'bedezign\yii2\audit\panels\JavascriptPanel'],
+        'audit/trail'      => ['class' => 'bedezign\yii2\audit\panels\TrailPanel'],
+        'audit/mail'       => ['class' => 'bedezign\yii2\audit\panels\MailPanel'],
+        'audit/extra'      => ['class' => 'bedezign\yii2\audit\panels\ExtraDataPanel'],
+        'audit/curl'       => ['class' => 'bedezign\yii2\audit\panels\CurlPanel'],
+        'audit/soap'       => ['class' => 'bedezign\yii2\audit\panels\SoapPanel'],
     ];
 
     /**
@@ -196,7 +181,7 @@ class Audit extends Module
     private $_panelFunctions = [];
 
     /**
-     * @var \musingsz\yii2\audit\models\AuditEntry If activated this is the active entry
+     * @var \bedezign\yii2\audit\models\AuditEntry If activated this is the active entry
      */
     private $_entry = null;
 
@@ -214,11 +199,7 @@ class Audit extends Module
         $app->on(Application::EVENT_AFTER_REQUEST, [$this, 'onAfterRequest']);
 
         // Activate the logging target
-        if (empty($app->getLog()->targets['audit'])) {
-            $this->logTarget = $app->getLog()->targets['audit'] = new LogTarget($this, $this->logConfig);
-        } else {
-            $this->logTarget = $app->getLog()->targets['audit'];
-        }
+        $this->logTarget = $app->getLog()->targets['audit'] = new LogTarget($this);
 
         // Boot all active panels
         $this->normalizePanelConfiguration();
@@ -323,17 +304,6 @@ class Audit extends Module
             return call_user_func($this->userIdentifierCallback, $user_id);
         }
         return $user_id;
-    }
-
-    /**
-     * @return int|mixed|null|string
-     */
-    public function getUserId()
-    {
-        if ($this->userIdCallback && is_callable($this->userIdCallback)) {
-            return call_user_func($this->userIdCallback);
-        }
-        return (Yii::$app instanceof \yii\web\Application && Yii::$app->user) ? Yii::$app->user->id : null;
     }
 
     /**

@@ -1,17 +1,17 @@
 <?php
 
-namespace musingsz\yii2\audit\panels;
+namespace bedezign\yii2\audit\panels;
 
-use musingsz\yii2\audit\components\Helper;
-use musingsz\yii2\audit\components\panels\Panel;
-use musingsz\yii2\audit\models\AuditError;
-use musingsz\yii2\audit\models\AuditErrorSearch;
+use bedezign\yii2\audit\components\Helper;
+use bedezign\yii2\audit\components\panels\Panel;
+use bedezign\yii2\audit\models\AuditError;
+use bedezign\yii2\audit\models\AuditErrorSearch;
 use Yii;
 use yii\grid\GridViewAsset;
 
 /**
  * ErrorPanel
- * @package musingsz\yii2\audit\panels
+ * @package bedezign\yii2\audit\panels
  */
 class ErrorPanel extends Panel
 {

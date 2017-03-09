@@ -1,11 +1,11 @@
 <?php
 
-namespace musingsz\yii2\audit\panels;
+namespace bedezign\yii2\audit\panels;
 
-use musingsz\yii2\audit\Audit;
-use musingsz\yii2\audit\components\panels\Panel;
-use musingsz\yii2\audit\models\AuditMail;
-use musingsz\yii2\audit\models\AuditMailSearch;
+use bedezign\yii2\audit\Audit;
+use bedezign\yii2\audit\components\panels\Panel;
+use bedezign\yii2\audit\models\AuditMail;
+use bedezign\yii2\audit\models\AuditMailSearch;
 use Swift_Message;
 use Swift_Mime_Attachment;
 use Swift_Mime_MimePart;
@@ -18,16 +18,10 @@ use yii\swiftmailer\Message;
 
 /**
  * MailPanel
- * @package musingsz\yii2\audit\panels
+ * @package bedezign\yii2\audit\panels
  */
 class MailPanel extends Panel
 {
-    /**
-     * Store full email daata
-     *
-     * /!\ Set this to true will increase database size /!\
-     */
-    public $storeData = true;
 
     /**
      * @inheritdoc
@@ -83,10 +77,7 @@ class MailPanel extends Panel
             }
         }
 
-        // makes full email available for download
-        if ($this->storeData) {
-            $mail->data = $message->toString();
-        }
+        $mail->data = $message->toString();
 
         return $mail->save(false) ? $mail : null;
     }

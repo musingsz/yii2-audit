@@ -1,13 +1,13 @@
 <?php
 
-namespace musingsz\yii2\audit\models;
+namespace bedezign\yii2\audit\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 /**
  * AuditJavascriptSearch
- * @package musingsz\yii2\audit\models
+ * @package bedezign\yii2\audit\models
  */
 class AuditJavascriptSearch extends AuditJavascript
 {

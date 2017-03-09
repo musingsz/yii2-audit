@@ -5,14 +5,14 @@
  * @license   http://www.yiiframework.com/license/
  */
 
-namespace musingsz\yii2\audit;
+namespace bedezign\yii2\audit;
 
 use Yii;
 use yii\log\Target;
 
 /**
  * LogTarget
- * @package musingsz\yii2\audit
+ * @package bedezign\yii2\audit
  */
 class LogTarget extends Target
 {
@@ -69,7 +69,7 @@ class LogTarget extends Target
      */
     public function collect($messages, $final)
     {
-        $this->messages = array_merge($this->messages, static::filterMessages($messages, $this->getLevels(), $this->categories, $this->except));
+        $this->messages = array_merge($this->messages, $messages);
         if ($final) {
             $this->export();
         }

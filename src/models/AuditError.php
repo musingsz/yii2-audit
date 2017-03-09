@@ -1,13 +1,13 @@
 <?php
 
-namespace musingsz\yii2\audit\models;
+namespace bedezign\yii2\audit\models;
 
-use musingsz\yii2\audit\components\db\ActiveRecord;
+use bedezign\yii2\audit\components\db\ActiveRecord;
 use Yii;
 
 /**
  * AuditError
- * @package musingsz\yii2\audit\models
+ * @package bedezign\yii2\audit\models
  *
  * @property int           $id
  * @property int           $entry_id

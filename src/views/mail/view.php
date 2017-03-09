@@ -3,8 +3,8 @@
 /** @var View $this */
 /** @var AuditMail $model */
 
-use musingsz\yii2\audit\components\Helper;
-use musingsz\yii2\audit\models\AuditMail;
+use bedezign\yii2\audit\components\Helper;
+use bedezign\yii2\audit\models\AuditMail;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\web\View;
@@ -35,7 +35,7 @@ echo DetailView::widget([
         'subject',
         [
             'label' => Yii::t('audit', 'Download'),
-            'value' => ($model->data !== null) ? Html::a(Yii::t('audit', 'Download eml file'), ['mail/download', 'id' => $model->id]) : null,
+            'value' => Html::a(Yii::t('audit', 'Download eml file'), ['mail/download', 'id' => $model->id]),
             'format' => 'raw',
         ],
         'created',

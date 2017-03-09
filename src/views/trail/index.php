@@ -1,11 +1,11 @@
 <?php
 
-use musingsz\yii2\audit\Audit;
+use bedezign\yii2\audit\Audit;
 use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\web\View;
 
-use musingsz\yii2\audit\models\AuditTrailSearch;
+use bedezign\yii2\audit\models\AuditTrailSearch;
 
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */

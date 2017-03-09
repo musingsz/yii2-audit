@@ -2,16 +2,16 @@
 /**
  *
  *
- * @author    Steve Guns <steve@musingsz.com>
- * @package   com.musingsz.sa-portal.inet.telenet.be
+ * @author    Steve Guns <steve@bedezign.com>
+ * @package   com.bedezign.sa-portal.inet.telenet.be
  * @copyright 2015 B&E DeZign
  */
 
-namespace musingsz\yii2\audit\components\panels;
+namespace bedezign\yii2\audit\components\panels;
 
 /**
  * Panel
- * @package musingsz\yii2\audit\panels
+ * @package bedezign\yii2\audit\panels
  *
  * @property array|mixed $data
  */

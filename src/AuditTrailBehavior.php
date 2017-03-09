@@ -1,19 +1,22 @@
 <?php
-namespace musingsz\yii2\audit;
+namespace bedezign\yii2\audit;
 
 use Yii;
-use yii\base\Behavior;
+use yii\base\Exception;
 use yii\db\ActiveRecord;
-use musingsz\yii2\audit\models\AuditTrail;
+
+use bedezign\yii2\audit\models\AuditTrail;
+use yii\web\Application;
+
 use yii\db\Query;
 
 /**
  * Class AuditTrailBehavior
- * @package musingsz\yii2\audit
+ * @package bedezign\yii2\audit
  *
  * @property \yii\db\ActiveRecord $owner
  */
-class AuditTrailBehavior extends Behavior
+class AuditTrailBehavior extends \yii\base\Behavior
 {
 
     /**
@@ -192,14 +195,13 @@ class AuditTrailBehavior extends Behavior
         if (sizeof($this->override) > 0 && sizeof($attributes) >0) {
             foreach ($this->override as $field => $queryParams) {
                 $newOverrideValues = $this->getNewOverrideValues($attributes[$field], $queryParams);
-                $saveField = \yii\helpers\ArrayHelper::getValue($queryParams, 'saveField', $field);
 
                 if (count($newOverrideValues) >1) {
-                    $attributes[$saveField] = implode(', ',
+                    $attributes[$field] = implode(', ',
                                         \yii\helpers\ArrayHelper::map($newOverrideValues, $queryParams['returnField'], $queryParams['returnField'])
                     );
                 } elseif (count($newOverrideValues) == 1) {
-                    $attributes[$saveField] = $newOverrideValues[0][$queryParams['returnField']];
+                    $attributes[$field] = $newOverrideValues[0][$queryParams['returnField']];
                 }
             }
         }
@@ -326,7 +328,7 @@ class AuditTrailBehavior extends Behavior
      */
     protected function getUserId()
     {
-        return Audit::getInstance()->getUserId();
+        return (Yii::$app instanceof Application && Yii::$app->user) ? Yii::$app->user->id : null;
     }
 
     /**

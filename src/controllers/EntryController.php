@@ -1,18 +1,18 @@
 <?php
 
-namespace musingsz\yii2\audit\controllers;
+namespace bedezign\yii2\audit\controllers;
 
-use musingsz\yii2\audit\components\panels\Panel;
-use musingsz\yii2\audit\components\web\Controller;
-use musingsz\yii2\audit\models\AuditEntry;
-use musingsz\yii2\audit\models\AuditEntrySearch;
+use bedezign\yii2\audit\components\panels\Panel;
+use bedezign\yii2\audit\components\web\Controller;
+use bedezign\yii2\audit\models\AuditEntry;
+use bedezign\yii2\audit\models\AuditEntrySearch;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\web\NotFoundHttpException;
 
 /**
  * EntryController
- * @package musingsz\yii2\audit\controllers
+ * @package bedezign\yii2\audit\controllers
  */
 class EntryController extends Controller
 {

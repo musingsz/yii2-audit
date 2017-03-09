@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 
-use musingsz\yii2\audit\models\AuditErrorSearch;
+use bedezign\yii2\audit\models\AuditErrorSearch;
 
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */

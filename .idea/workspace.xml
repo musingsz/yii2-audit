@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da7d7ab8-1144-4e2c-8c59-cd8e68bdf2dc" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.scrutinizer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/migrations/m170126_000001_alter_audit_mail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/assets/AppAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/assets/web/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/config/console.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/config/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/config/web.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/controllers/CurlController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/controllers/ErrorController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/controllers/JavascriptController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/controllers/MailController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/controllers/SiteController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/controllers/SoapController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/controllers/TrailController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/migrations/m150624_000001_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/migrations/m150624_000002_post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/models/ContactForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/models/Post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/models/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/panels/ViewsPanel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/rbac/assignments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/rbac/items.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/runtime/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/curl/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/error/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/javascript/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/layouts/main.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/mail/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/site/_index-jumbotron.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/site/error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/site/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/site/info.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/soap/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/trail/_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/trail/create.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/trail/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/views/trail/update.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/web/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/web/assets/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/web/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/web/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/web/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/widgets/Alert.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_app/yii" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_config/functional.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_config/unit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/ActiveFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/AuditDataFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/AuditEntryFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/AuditErrorFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/AuditJavascriptFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/AuditMailFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/AuditTrailFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/PostFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/UserFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/data/init_audit_data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/data/init_audit_entry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/data/init_audit_error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/data/init_audit_javascript.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/data/init_audit_mail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/data/init_audit_trail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/data/init_post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_fixtures/data/init_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_init.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_output/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_pages/AdminPage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_pages/LoginPage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_support/FixtureHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_support/MailHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_support/UnitHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/_support/curlFaker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/EntryGridCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/EntryViewCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/EntryViewInvalidIdCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/ErrorGridCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/ErrorViewCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/ErrorViewInvalidIdCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/HomeCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/JavascriptGridCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/JavascriptViewCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/MailDownloadCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/MailGridCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/MailViewCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/TrailGridCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/TrailViewCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/functional/_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AccessTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditEntrySearchTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditEntryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditErrorSearchTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditErrorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditExtraDataTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditJavascriptSearchTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditJavascriptTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditMailTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorAllowedIgnoredTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorIgnoredClassesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorNotActiveTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorWebTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditTrailTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditUserIdCallbackTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/AuditUserIdentifierCallbackTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/CleanupDataTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/CurlPanelTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/HelperTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/RequestPanelTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/VersionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/codeception/unit/_bootstrap.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CREDITS.md" afterPath="$PROJECT_DIR$/CREDITS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="$PROJECT_DIR$/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer-ci.json" afterPath="$PROJECT_DIR$/composer-ci.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer-ci.lock" afterPath="$PROJECT_DIR$/composer-ci.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Audit.php" afterPath="$PROJECT_DIR$/src/Audit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AuditTrailBehavior.php" afterPath="$PROJECT_DIR$/src/AuditTrailBehavior.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Bootstrap.php" afterPath="$PROJECT_DIR$/src/Bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LogTarget.php" afterPath="$PROJECT_DIR$/src/LogTarget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Provider.php" afterPath="$PROJECT_DIR$/src/Provider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/commands/AuditController.php" afterPath="$PROJECT_DIR$/src/commands/AuditController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Access.php" afterPath="$PROJECT_DIR$/src/components/Access.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Helper.php" afterPath="$PROJECT_DIR$/src/components/Helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/SoapClient.php" afterPath="$PROJECT_DIR$/src/components/SoapClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Version.php" afterPath="$PROJECT_DIR$/src/components/Version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/base/ErrorHandlerTrait.php" afterPath="$PROJECT_DIR$/src/components/base/ErrorHandlerTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/console/ErrorHandler.php" afterPath="$PROJECT_DIR$/src/components/console/ErrorHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/db/ActiveRecord.php" afterPath="$PROJECT_DIR$/src/components/db/ActiveRecord.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/panels/DataStoragePanel.php" afterPath="$PROJECT_DIR$/src/components/panels/DataStoragePanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/panels/DataStoragePanelTrait.php" afterPath="$PROJECT_DIR$/src/components/panels/DataStoragePanelTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/panels/Panel.php" afterPath="$PROJECT_DIR$/src/components/panels/Panel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/panels/PanelTrait.php" afterPath="$PROJECT_DIR$/src/components/panels/PanelTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/web/Controller.php" afterPath="$PROJECT_DIR$/src/components/web/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/web/ErrorHandler.php" afterPath="$PROJECT_DIR$/src/components/web/ErrorHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/DefaultController.php" afterPath="$PROJECT_DIR$/src/controllers/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/EntryController.php" afterPath="$PROJECT_DIR$/src/controllers/EntryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/ErrorController.php" afterPath="$PROJECT_DIR$/src/controllers/ErrorController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/JavascriptController.php" afterPath="$PROJECT_DIR$/src/controllers/JavascriptController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/JsLogController.php" afterPath="$PROJECT_DIR$/src/controllers/JsLogController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/MailController.php" afterPath="$PROJECT_DIR$/src/controllers/MailController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/TrailController.php" afterPath="$PROJECT_DIR$/src/controllers/TrailController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/messages/config.php" afterPath="$PROJECT_DIR$/src/messages/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/messages/en/audit.php" afterPath="$PROJECT_DIR$/src/messages/en/audit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/messages/es/audit.php" afterPath="$PROJECT_DIR$/src/messages/es/audit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/messages/nl/audit.php" afterPath="$PROJECT_DIR$/src/messages/nl/audit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/messages/ru/audit.php" afterPath="$PROJECT_DIR$/src/messages/ru/audit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/messages/tr/audit.php" afterPath="$PROJECT_DIR$/src/messages/tr/audit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/README.md" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m140829_000001_create_audit_entry.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m140829_000001_create_audit_entry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m140829_000002_create_audit_data.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m140829_000002_create_audit_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m140829_000003_create_audit_error.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m140829_000003_create_audit_error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m140829_000004_audit_trail.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m140829_000004_audit_trail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150522_000001_create_audit_javscript.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150522_000001_create_audit_javscript.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150609_000001_update_audit_trail.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150609_000001_update_audit_trail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150622_000001_update_audit_entry.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150622_000001_update_audit_entry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150622_000002_update_audit_entry.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150622_000002_update_audit_entry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150622_000003_update_audit_entry.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150622_000003_update_audit_entry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150622_000003_update_audit_error.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150622_000003_update_audit_error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150623_000001_audit_id_to_entry_id.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150623_000001_audit_id_to_entry_id.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150623_000002_drop_superfluous_fields.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150623_000002_drop_superfluous_fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150623_000003_add_audit_entry_ajax.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150623_000003_add_audit_entry_ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150625_000001_update_audit_entry.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150625_000001_update_audit_entry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150625_000002_update_audit_data.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150625_000002_update_audit_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150625_000003_update_audit_trail.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150625_000003_update_audit_trail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150625_000004_fake_new_migrations.php" afterPath="$PROJECT_DIR$/src/migrations/0.1-1.0/m150625_000004_fake_new_migrations.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/m150626_000001_create_audit_entry.php" afterPath="$PROJECT_DIR$/src/migrations/m150626_000001_create_audit_entry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/m150626_000002_create_audit_data.php" afterPath="$PROJECT_DIR$/src/migrations/m150626_000002_create_audit_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/m150626_000003_create_audit_error.php" afterPath="$PROJECT_DIR$/src/migrations/m150626_000003_create_audit_error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/m150626_000004_create_audit_trail.php" afterPath="$PROJECT_DIR$/src/migrations/m150626_000004_create_audit_trail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/m150626_000005_create_audit_javascript.php" afterPath="$PROJECT_DIR$/src/migrations/m150626_000005_create_audit_javascript.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/m150626_000006_create_audit_mail.php" afterPath="$PROJECT_DIR$/src/migrations/m150626_000006_create_audit_mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/m150714_000001_alter_audit_data.php" afterPath="$PROJECT_DIR$/src/migrations/m150714_000001_alter_audit_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditData.php" afterPath="$PROJECT_DIR$/src/models/AuditData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditEntry.php" afterPath="$PROJECT_DIR$/src/models/AuditEntry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditEntrySearch.php" afterPath="$PROJECT_DIR$/src/models/AuditEntrySearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditError.php" afterPath="$PROJECT_DIR$/src/models/AuditError.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditErrorSearch.php" afterPath="$PROJECT_DIR$/src/models/AuditErrorSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditJavascript.php" afterPath="$PROJECT_DIR$/src/models/AuditJavascript.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditJavascriptSearch.php" afterPath="$PROJECT_DIR$/src/models/AuditJavascriptSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditMail.php" afterPath="$PROJECT_DIR$/src/models/AuditMail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditMailSearch.php" afterPath="$PROJECT_DIR$/src/models/AuditMailSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditTrail.php" afterPath="$PROJECT_DIR$/src/models/AuditTrail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditTrailSearch.php" afterPath="$PROJECT_DIR$/src/models/AuditTrailSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/AssetPanel.php" afterPath="$PROJECT_DIR$/src/panels/AssetPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/ConfigPanel.php" afterPath="$PROJECT_DIR$/src/panels/ConfigPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/CurlPanel.php" afterPath="$PROJECT_DIR$/src/panels/CurlPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/DbPanel.php" afterPath="$PROJECT_DIR$/src/panels/DbPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/ErrorPanel.php" afterPath="$PROJECT_DIR$/src/panels/ErrorPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/ExtraDataPanel.php" afterPath="$PROJECT_DIR$/src/panels/ExtraDataPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/JavascriptPanel.php" afterPath="$PROJECT_DIR$/src/panels/JavascriptPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/LogPanel.php" afterPath="$PROJECT_DIR$/src/panels/LogPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/MailPanel.php" afterPath="$PROJECT_DIR$/src/panels/MailPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/ProfilingPanel.php" afterPath="$PROJECT_DIR$/src/panels/ProfilingPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/RequestPanel.php" afterPath="$PROJECT_DIR$/src/panels/RequestPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/SoapPanel.php" afterPath="$PROJECT_DIR$/src/panels/SoapPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/panels/TrailPanel.php" afterPath="$PROJECT_DIR$/src/panels/TrailPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/_audit_entry_id.php" afterPath="$PROJECT_DIR$/src/views/_audit_entry_id.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/_audit_trails.php" afterPath="$PROJECT_DIR$/src/views/_audit_trails.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/default/index.php" afterPath="$PROJECT_DIR$/src/views/default/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/default/panels/error/chart.php" afterPath="$PROJECT_DIR$/src/views/default/panels/error/chart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/default/panels/javascript/chart.php" afterPath="$PROJECT_DIR$/src/views/default/panels/javascript/chart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/default/panels/mail/chart.php" afterPath="$PROJECT_DIR$/src/views/default/panels/mail/chart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/default/panels/trail/chart.php" afterPath="$PROJECT_DIR$/src/views/default/panels/trail/chart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/index.php" afterPath="$PROJECT_DIR$/src/views/entry/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/panels/curl/detail.php" afterPath="$PROJECT_DIR$/src/views/entry/panels/curl/detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/panels/curl/index.php" afterPath="$PROJECT_DIR$/src/views/entry/panels/curl/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/panels/curl/info_table.php" afterPath="$PROJECT_DIR$/src/views/entry/panels/curl/info_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/panels/error/detail.php" afterPath="$PROJECT_DIR$/src/views/entry/panels/error/detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/panels/extra/detail.php" afterPath="$PROJECT_DIR$/src/views/entry/panels/extra/detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/panels/javascript/detail.php" afterPath="$PROJECT_DIR$/src/views/entry/panels/javascript/detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/panels/mail/detail.php" afterPath="$PROJECT_DIR$/src/views/entry/panels/mail/detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/panels/soap/detail.php" afterPath="$PROJECT_DIR$/src/views/entry/panels/soap/detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/panels/soap/index.php" afterPath="$PROJECT_DIR$/src/views/entry/panels/soap/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/panels/soap/info_table.php" afterPath="$PROJECT_DIR$/src/views/entry/panels/soap/info_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/panels/trail/detail.php" afterPath="$PROJECT_DIR$/src/views/entry/panels/trail/detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/entry/view.php" afterPath="$PROJECT_DIR$/src/views/entry/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/error/index.php" afterPath="$PROJECT_DIR$/src/views/error/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/error/view.php" afterPath="$PROJECT_DIR$/src/views/error/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/javascript/index.php" afterPath="$PROJECT_DIR$/src/views/javascript/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/javascript/view.php" afterPath="$PROJECT_DIR$/src/views/javascript/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/layouts/main.php" afterPath="$PROJECT_DIR$/src/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mail/index.php" afterPath="$PROJECT_DIR$/src/views/mail/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mail/view-html.php" afterPath="$PROJECT_DIR$/src/views/mail/view-html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mail/view.php" afterPath="$PROJECT_DIR$/src/views/mail/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/trail/index.php" afterPath="$PROJECT_DIR$/src/views/trail/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/trail/view.php" afterPath="$PROJECT_DIR$/src/views/trail/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/AuditAsset.php" afterPath="$PROJECT_DIR$/src/web/AuditAsset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/JSLoggingAsset.php" afterPath="$PROJECT_DIR$/src/web/JSLoggingAsset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/assets/css/audit.css" afterPath="$PROJECT_DIR$/src/web/assets/css/audit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/assets/javascript/logger.js" afterPath="$PROJECT_DIR$/src/web/assets/javascript/logger.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Provider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Provider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogTarget.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LogTarget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuditTrailBehavior.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AuditTrailBehavior.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="341" column="61" lean-forward="false" selection-start-line="341" selection-start-column="61" selection-end-line="341" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuditController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/commands/AuditController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding>
+                <marker date="1489063040239" expanded="true" signature="4843:4851" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorHandlerTrait.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/base/ErrorHandlerTrait.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bootstrap.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Audit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Audit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="401" column="37" lean-forward="false" selection-start-line="401" selection-start-column="37" selection-end-line="401" selection-end-column="37" />
+              <folding>
+                <marker date="1489063040163" expanded="true" signature="13819:14304" ph="..." />
+                <marker date="1489063040163" expanded="true" signature="13819:14332" ph="{...}" />
+                <marker date="1489063040163" expanded="true" signature="13957:14062" ph="..." />
+                <marker date="1489063040163" expanded="true" signature="14341:14406" ph=" @param string $className ..." />
+                <marker date="1489063040163" expanded="true" signature="14467:14697" ph="{...}" />
+                <marker date="1489063040163" expanded="true" signature="14557:14668" ph="..." />
+                <marker date="1489063040163" expanded="true" signature="14610:14658" ph="..." />
+                <marker date="1489063040163" expanded="true" signature="14706:15083" ph=" Verifies a route against a given list and returns whether it matches or not. ..." />
+                <marker date="1489063040163" expanded="true" signature="15225:15739" ph="..." />
+                <marker date="1489063040163" expanded="true" signature="15307:15464" ph="..." />
+                <marker date="1489063040163" expanded="true" signature="15504:15662" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CREDITS.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CREDITS.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="256">
+                <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-967">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Audit</find>
+      <find>bedezign</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>musingsz</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tests/codeception/_app/views/trail/update.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/_fixtures/ActiveFixture.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/_fixtures/AuditDataFixture.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/_fixtures/AuditEntryFixture.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/_fixtures/AuditErrorFixture.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/_fixtures/AuditJavascriptFixture.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/_fixtures/AuditMailFixture.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/_fixtures/AuditTrailFixture.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/_fixtures/data/init_audit_data.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/_fixtures/data/init_audit_error.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/_support/curlFaker.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/EntryGridCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/EntryViewCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/EntryViewInvalidIdCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/ErrorGridCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/ErrorViewCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/ErrorViewInvalidIdCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/HomeCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/JavascriptGridCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/JavascriptViewCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/MailDownloadCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/MailGridCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/MailViewCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/TrailGridCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/functional/TrailViewCept.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AccessTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditEntrySearchTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditEntryTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditErrorSearchTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditErrorTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditExtraDataTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditJavascriptSearchTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditJavascriptTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditMailTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditTestCase.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorAllowedIgnoredTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorIgnoredClassesTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorNotActiveTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorWebTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditTrailTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditUserIdCallbackTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/AuditUserIdentifierCallbackTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/CleanupDataTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/CurlPanelTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/HelperTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/RequestPanelTest.php" />
+        <option value="$PROJECT_DIR$/tests/codeception/unit/VersionTest.php" />
+        <option value="$PROJECT_DIR$/src/Audit.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="34" />
+    <option name="y" value="3" />
+    <option name="width" value="1631" />
+    <option name="height" value="986" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-simple-audit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-simple-audit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bwec-basic" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da7d7ab8-1144-4e2c-8c59-cd8e68bdf2dc" name="Default" comment="" />
+      <created>1489060560028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1489060560028</updated>
+      <workItem from="1489060561535" duration="2577000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2577000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="34" y="3" width="1631" height="986" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/EntryViewInvalidIdCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/ErrorGridCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/ErrorViewCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/ErrorViewInvalidIdCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/HomeCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/JavascriptGridCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/JavascriptViewCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/MailDownloadCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/MailGridCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/MailViewCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/TrailGridCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/functional/TrailViewCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AccessTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditEntrySearchTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditEntryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditErrorSearchTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditErrorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditExtraDataTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditJavascriptSearchTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditJavascriptTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditMailTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditTestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorAllowedIgnoredTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorIgnoredClassesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorNotActiveTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditTrailBehaviorWebTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditTrailTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditUserIdCallbackTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/CleanupDataTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/CurlPanelTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/HelperTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/RequestPanelTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/VersionTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeception/unit/AuditUserIdentifierCallbackTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer-ci.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heroku.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-967">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Provider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LogTarget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CREDITS.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="256">
+            <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/AuditController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <marker date="1489063040239" expanded="true" signature="4843:4851" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/base/ErrorHandlerTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AuditTrailBehavior.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="341" column="61" lean-forward="false" selection-start-line="341" selection-start-column="61" selection-end-line="341" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Audit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="401" column="37" lean-forward="false" selection-start-line="401" selection-start-column="37" selection-end-line="401" selection-end-column="37" />
+          <folding>
+            <marker date="1489063040163" expanded="true" signature="13819:14304" ph="..." />
+            <marker date="1489063040163" expanded="true" signature="13819:14332" ph="{...}" />
+            <marker date="1489063040163" expanded="true" signature="13957:14062" ph="..." />
+            <marker date="1489063040163" expanded="true" signature="14341:14406" ph=" @param string $className ..." />
+            <marker date="1489063040163" expanded="true" signature="14467:14697" ph="{...}" />
+            <marker date="1489063040163" expanded="true" signature="14557:14668" ph="..." />
+            <marker date="1489063040163" expanded="true" signature="14610:14658" ph="..." />
+            <marker date="1489063040163" expanded="true" signature="14706:15083" ph=" Verifies a route against a given list and returns whether it matches or not. ..." />
+            <marker date="1489063040163" expanded="true" signature="15225:15739" ph="..." />
+            <marker date="1489063040163" expanded="true" signature="15307:15464" ph="..." />
+            <marker date="1489063040163" expanded="true" signature="15504:15662" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -4,14 +4,14 @@
  * raw data attributes.
  */
 
-namespace musingsz\yii2\audit\components\db;
+namespace bedezign\yii2\audit\components\db;
 
-use musingsz\yii2\audit\Audit;
-use musingsz\yii2\audit\components\Helper;
+use bedezign\yii2\audit\Audit;
+use bedezign\yii2\audit\components\Helper;
 
 /**
  * ActiveRecord
- * @package musingsz\yii2\audit\models
+ * @package bedezign\yii2\audit\models
  * @property string $created
  */
 class ActiveRecord extends \yii\db\ActiveRecord

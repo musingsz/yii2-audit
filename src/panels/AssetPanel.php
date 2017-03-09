@@ -1,13 +1,13 @@
 <?php
 
-namespace musingsz\yii2\audit\panels;
+namespace bedezign\yii2\audit\panels;
 
-use musingsz\yii2\audit\components\panels\DataStoragePanelTrait;
+use bedezign\yii2\audit\components\panels\DataStoragePanelTrait;
 use Yii;
 
 /**
  * AssetPanel
- * @package musingsz\yii2\audit\panels
+ * @package bedezign\yii2\audit\panels
  */
 class AssetPanel extends \yii\debug\panels\AssetPanel
 {

@@ -1,8 +1,8 @@
 <?php
 /* @var $panel ErrorPanel */
 
-use musingsz\yii2\audit\models\AuditError;
-use musingsz\yii2\audit\panels\ErrorPanel;
+use bedezign\yii2\audit\models\AuditError;
+use bedezign\yii2\audit\panels\ErrorPanel;
 use dosamigos\chartjs\ChartJs;
 
 $days = [];
@@ -15,10 +15,6 @@ foreach (range(-6, 0) as $day) {
 
 echo ChartJs::widget([
     'type' => 'bar',
-    'clientOptions' => [
-        'legend' => ['display' => false],
-        'tooltips' => ['enabled' => false],
-    ],
     'data' => [
         'labels' => $days,
         'datasets' => [

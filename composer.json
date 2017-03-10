@@ -1,6 +1,6 @@
 {
     "name": "musingsz/yii2-audit",
-    "description": "Yii2 Audit records and displays web/cli requests, database changes, php/js errors and associated data.",
+    "description": "Yii2 Audit records and requests, database changes, php/js errors and associated data,no bootstrap dependent",
     "keywords": ["yii2", "audit", "trail", "logging"],
     "type": "yii2-extension",
     "license": "BSD 3-Clause",

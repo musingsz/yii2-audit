@@ -25,50 +25,6 @@ Tracks minimal data in the base entry:
 * `memory_max` - The peak memory usage during the request.
 * `created` - The datetime the entry was created.
 
-### Log Data using Configurable Panels
-
-Each panel is optional, and you can even create your own.
-
-* `RequestPanel` - Tracks all incoming web and console request data:
-  * URL Information including the route and params.
-  * PHP SuperGlobals `$_GET`, `$_POST`, `$_SERVER`, `$_FILES` and `$_COOKIES`.
-  * Headers from the Request and Response.
-* `AssetPanel` - Asset Bundles loaded for the request.
-* `ConfigPanel` - Yii and PHP configuration that was used for the request.
-* `DbPanel` - SQL queries.
-* `ErrorPanel` - Record all PHP exceptions and errors in the background.  Once logged you can configure a cron task to email the errors to a developer so issues can be fixed before they are even reported by a user. [more info](https://musingsz.github.io/yii2-audit/docs/error-panel/)
-* `JavascriptPanel` - Automatically log JavaScript errors. Errors and warning are logged automatically by including `JSLoggingAsset` asset bundle.  The javascript component also provides methods to manually add logging entries. [more info](https://musingsz.github.io/yii2-audit/docs/javascript-panel/)
-* `LogPanel` - Yii logs.
-* `MailPanel` - Emails that were sent during the request. [more info](https://musingsz.github.io/yii2-audit/docs/mail-panel/)
-* `ProfilingPanel` - Application profiling information.
-* `TrailPanel` - Database changes that were made during the request using the `AuditTrailBehavior`. [more info](https://musingsz.github.io/yii2-audit/docs/trail-panel/)
-* `ExtraDataPanel` - Extra data that you want to store. [more info](https://musingsz.github.io/yii2-audit/docs/extra-data-panel/)
-* `CurlPanel` - Track your applications cURL requests (including replies, log and headers) [more info](https://musingsz.github.io/yii2-audit/docs/curl-panel/)
-* `YourOwnPanel` - Create your own panel to capture any data you want. [more info](https://musingsz.github.io/yii2-audit/docs/custom-views-panel/)
-
-## Documentation
-
-Getting started? Try the [Installation Guide](https://musingsz.github.io/yii2-audit/docs/installation/).  You will find further information in the [Documentation](https://musingsz.github.io/yii2-audit/docs/).
-
-For changes since the last version see the [Changelog](https://github.com/musingsz/yii2-audit/blob/master/CHANGELOG.md).
-
-## Screenshots
-
-### Dashboard
-![Dashboard](https://cloud.githubusercontent.com/assets/51875/8369827/b70355ee-1bfe-11e5-9748-dd864f0500de.png)
-
-### Entry View
-![Audit Entry View](https://cloud.githubusercontent.com/assets/51875/8395061/3b004aca-1d97-11e5-8b71-6787c662ea3e.png)
-
-### More Screenshots
-
-More images are available from the [Screenshots](https://musingsz.github.io/yii2-audit/screenshots/) page.
-
-## Contributing
-
-Contributions are welcome.  Please refer to the [contributing guidelines](https://github.com/musingsz/yii2-audit/blob/master/CONTRIBUTING.md).
-
-Thanks to [everyone who has contributed](https://github.com/musingsz/yii2-audit/blob/master/CREDITS.md).
 
 ## Project Resources
 

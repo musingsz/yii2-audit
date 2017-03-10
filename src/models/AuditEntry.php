@@ -123,7 +123,7 @@ class AuditEntry extends ActiveRecord
             $rows[] = [$this->id, $type, $date, new Expression($param)];
             $params[$param] = [Helper::serialize($data, $compact), \PDO::PARAM_LOB];
         }
-       // static::getDb()->createCommand()->batchInsert(AuditData::tableName(), $columns, $rows)->bindValues($params)->execute();
+        static::getDb()->createCommand()->batchInsert(AuditData::tableName(), $columns, $rows)->bindValues($params)->execute();
     }
 
     /**
@@ -141,7 +141,7 @@ class AuditEntry extends ActiveRecord
             'created' => date('Y-m-d H:i:s'),
             'data' => [Helper::serialize($data, $compact), \PDO::PARAM_LOB],
         ];
-      // static::getDb()->createCommand()->insert(AuditData::tableName(), $record)->execute();
+      static::getDb()->createCommand()->insert(AuditData::tableName(), $record)->execute();
     }
 
     /**

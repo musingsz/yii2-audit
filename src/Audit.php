@@ -68,7 +68,7 @@ class Audit extends Module
     /**
      * @var string[] Action or list of actions to ignore. '*' is allowed as the first or last character to use as wildcard (eg 'debug/*').
      */
-    public $ignoreActions = [];
+    public $ignoreActions = ['audit/*', 'debug/*'];
 
     /**
      * @var int Maximum age (in days) of the audit entries before they are truncated
@@ -80,7 +80,7 @@ class Audit extends Module
      * An IP address can contain the wildcard `*` at the end so that it matches IP addresses with the same prefix.
      * For example, '192.168.*' matches all IP addresses in the segment '192.168.'.
      */
-    public $accessIps = null;
+    public $accessIps = ['127.0.0.1', '192.168.*'];
 
     /**
      * @var string[] Role or list of roles with access to the viewer, null for everyone (if the user matches)

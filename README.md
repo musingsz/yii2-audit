@@ -1,14 +1,5 @@
 # Yii2 Audit
 
-[![Join Chat](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/musingsz/yii2-audit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Latest Version](https://img.shields.io/github/tag/musingsz/yii2-audit.svg?style=flat-square&label=release)](https://github.com/musingsz/yii2-audit/tags)
-[![Software License](https://img.shields.io/badge/license-BSD-brightgreen.svg?style=flat-square)](https://github.com/musingsz/yii2-audit/blob/master/LICENSE.md)
-[![Build Status](https://img.shields.io/travis/musingsz/yii2-audit/master.svg?style=flat-square)](https://travis-ci.org/musingsz/yii2-audit)
-[![HHVM](https://img.shields.io/hhvm/musingsz/yii2-audit.svg?style=flat-square)](http://hhvm.h4cc.de/package/musingsz/yii2-audit)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/musingsz/yii2-audit.svg?style=flat-square)](https://scrutinizer-ci.com/g/musingsz/yii2-audit/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/musingsz/yii2-audit.svg?style=flat-square)](https://scrutinizer-ci.com/g/musingsz/yii2-audit)
-[![Total Downloads](https://img.shields.io/packagist/dt/musingsz/yii2-audit.svg?style=flat-square)](https://packagist.org/packages/musingsz/yii2-audit)
-[![Yii2 Framework](https://img.shields.io/badge/extension-Yii2_Framework-green.svg?style=flat-square)](http://www.yiiframework.com/extension/yii2-audit)
 
 
 Yii2 Audit records and displays web/cli requests, database changes, php/js errors and associated data.

@@ -121,6 +121,11 @@ class AuditTrailBehavior extends \yii\base\Behavior
         if (!$this->active) {
             return;
         }
+
+        if(!Audit::getInstance()->enable){
+            return;
+        }
+
         // Lets check if the whole class should be ignored
         if (sizeof($this->ignoredClasses) > 0 && array_search(get_class($this->owner), $this->ignoredClasses) !== false) {
             return;

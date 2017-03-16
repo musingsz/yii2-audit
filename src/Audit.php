@@ -56,6 +56,11 @@ class Audit extends Module
     public $layout = 'main';
 
     /**
+     * @var  disable log
+     */
+    public $enable = true;
+
+    /**
      * @var string name of the component to use for database access
      */
     public $db = 'db';

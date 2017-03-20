@@ -3,6 +3,7 @@
 namespace musingsz\yii2\audit\controllers;
 
 use musingsz\yii2\audit\components\web\Controller;
+use musingsz\yii2\audit\models\AuditTrail;
 use Yii;
 
 /**
@@ -19,5 +20,7 @@ class DefaultController extends Controller
     {
         return $this->render('index');
     }
+
+
 
 }

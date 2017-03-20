@@ -14,12 +14,14 @@ class m150626_000002_create_audit_data extends Migration
             'entry_id'   => Schema::TYPE_INTEGER . ' NOT NULL',
             'type'       => Schema::TYPE_STRING . '(255) NOT NULL',
             'data'       => Schema::TYPE_BINARY,
+            'created'       => Schema::TYPE_DATETIME,
         ], ($this->db->driverName === 'mysql' ? 'CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE=InnoDB' : null));
 
         if ($this->db->driverName != 'sqlite') {
             $this->addForeignKey('fk_audit_data_entry_id', self::TABLE, ['entry_id'], '{{%audit_entry}}', 'id');
         }
     }
+
 
     public function down()
     {

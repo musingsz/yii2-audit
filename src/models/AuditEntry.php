@@ -30,6 +30,8 @@ use yii\db\Expression;
  */
 class AuditEntry extends ActiveRecord
 {
+
+    const  TABLE_NAME = 'audit_entry';
     /**
      * @var bool
      */
@@ -198,6 +200,54 @@ class AuditEntry extends ActiveRecord
             'memory_max'     => Yii::t('audit', 'Memory'),
             'request_method' => Yii::t('audit', 'Request Method'),
         ];
+    }
+
+
+    /**
+     * @return  create table
+     */
+    public function createMonthlyTable($table_suffix)
+    {
+        $table = self::TABLE_NAME.'_'.$table_suffix;
+        $sql = " CREATE TABLE  IF NOT EXISTS `".$table."` (
+              	`id` INT(11) NOT NULL AUTO_INCREMENT,
+                `created` DATETIME NOT NULL,
+                `user_id` INT(11) NULL DEFAULT '0',
+                `duration` FLOAT NULL DEFAULT NULL,
+                `ip` VARCHAR(45) NULL DEFAULT NULL,
+                `request_method` VARCHAR(16) NULL DEFAULT NULL,
+                `ajax` INT(1) NOT NULL DEFAULT '0',
+                `route` VARCHAR(255) NULL DEFAULT NULL,
+                `memory_max` INT(11) NULL DEFAULT NULL,
+                PRIMARY KEY (`id`),
+                INDEX `idx_user_id` (`user_id`),
+                INDEX `idx_route` (`route`)
+            )
+            COLLATE='utf8_general_ci'
+            ENGINE=InnoDB
+            AUTO_INCREMENT=0
+                ";
+        $this->db->createCommand($sql)->execute();
+
+    }
+
+    /**
+     * @return  create table
+     *
+     */
+    public function moveTableData($table_suffix)
+    {
+
+        $table =  self::TABLE_NAME.'_'.$table_suffix;
+
+        $sql = "INSERT IGNORE INTO ".$table."  SELECT * FROM ".self::TABLE_NAME." where  DATE_FORMAT(created, '%Y%m')='".$table_suffix."' ";
+        // echo $sql ."<br>";
+        $count  =  $this->db->createCommand($sql)->execute();
+        echo $table.  ' -> INSERT '. $count ."<br>";
+        $delsql = " DELETE FROM ".self::TABLE_NAME." WHERE DATE_FORMAT(created, '%Y%m')='".$table_suffix."'";
+        // echo $delsql ."<br>";
+        $count  = $this->db->createCommand($delsql)->execute();
+        echo $table. ' -> DELETE '. $count ."<br>";
     }
 
 }

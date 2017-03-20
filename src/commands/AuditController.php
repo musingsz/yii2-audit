@@ -54,7 +54,8 @@ class AuditController extends Controller
     public function actionCleanup()
     {
         /** @var Audit $audit */
-        $audit = Yii::$app->getModule(Audit::findModuleIdentifier());
+        $audit = \Yii::$app->getModule(Audit::findModuleIdentifier());
+
         $panels = $this->panels !== null ? explode(',', $this->panels) : array_keys($audit->panels);
 
         // summary

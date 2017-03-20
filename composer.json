@@ -9,7 +9,7 @@
         "ext-bcmath": "*",
         "yiisoft/yii2": "2.*",
         "yiisoft/yii2-debug": "2.*",
-        "musingsz/yii2-chartjs-widget": "0.2",
+        "musingsz/yii2-chartjs-widget": "0.4",
         "phpspec/php-diff": "1.*"
     },
     "autoload": {

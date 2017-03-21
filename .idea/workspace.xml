@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da7d7ab8-1144-4e2c-8c59-cd8e68bdf2dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CREDITS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Procfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/composer-ci.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/composer-ci.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heroku.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/commands/AuditController.php" afterPath="$PROJECT_DIR$/src/commands/AuditController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/DefaultController.php" afterPath="$PROJECT_DIR$/src/controllers/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/TrailController.php" afterPath="$PROJECT_DIR$/src/controllers/TrailController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/migrations/m150626_000002_create_audit_data.php" afterPath="$PROJECT_DIR$/src/migrations/m150626_000002_create_audit_data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditData.php" afterPath="$PROJECT_DIR$/src/models/AuditData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditEntry.php" afterPath="$PROJECT_DIR$/src/models/AuditEntry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditError.php" afterPath="$PROJECT_DIR$/src/models/AuditError.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditMail.php" afterPath="$PROJECT_DIR$/src/models/AuditMail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/AuditTrail.php" afterPath="$PROJECT_DIR$/src/models/AuditTrail.php" />
-    </list>
+    <list default="true" id="da7d7ab8-1144-4e2c-8c59-cd8e68bdf2dc" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +87,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="339">
-                <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -205,9 +186,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1788" />
-    <option name="y" value="197" />
-    <option name="width" value="1631" />
+    <option name="x" value="1775" />
+    <option name="y" value="224" />
+    <option name="width" value="1560" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectView">
@@ -323,18 +304,18 @@
       <workItem from="1489628815676" duration="30000" />
       <workItem from="1489633824159" duration="4147000" />
       <workItem from="1489732294264" duration="253000" />
-      <workItem from="1490001992678" duration="210000" />
+      <workItem from="1490001992678" duration="1911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13063000" />
+    <option name="totallyTimeSpent" value="14764000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1788" y="197" width="1631" height="728" extended-state="0" />
+    <frame x="1775" y="224" width="1560" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19541693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20466666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -753,7 +734,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="339">
-            <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
